@@ -22,10 +22,10 @@ export default function AuroraBackgroundDemo() {
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
           
-        </div>
-        <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2"><a href="https://tomaslonnblad.github.io/tl999">
-          Main page </a>
-        </button>
+        </div><a href="https://tomaslonnblad.github.io/tl999">
+        <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
+          Main page 
+        </button></a>
       </motion.div>
     </AuroraBackground>
   );
